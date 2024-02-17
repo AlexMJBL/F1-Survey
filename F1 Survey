@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      
+      <title>F1 Survey</title>    
+      <link rel="stylesheet" href="styles.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      
+      
+        <header>
+      <h1 id="title">F1 2024  Season Survey</h1>
+      <p id="description">Thank you for helping us improve the sport!</p>
+      </header>
+      <main>
+      <form method="get" id="survey-form" action="survey-form.php">
+      <fieldset >
+        <label for="name" id="name-label">Name:<input placeholder="Enter your name" id="name" required> </label>
+        <label for="email" id="email-label">Email:<input id="email" type="email" placeholder="Enter your email" required> </label>
+        <label for="number" id="number-label">Age:<input id="number" type="number" placeholder="Enter your age" min="13" max="110" required> </label>
+      </fieldset>
+      <fieldset class="track">
+        <label for="bahrain" class="checkbox">
+          <input type="checkbox" id="bahrain" value="Bahrain">Bahrain
+          </label>
+        <label for="Saudi Arabia" class="checkbox">
+          <input type="checkbox" value="Saudi Arabia">Saudi Arabia
+          </label>
+        <label class="checkbox"><input type="checkbox" value="Australia">Australia</label>
+        <label class="checkbox"><input type="checkbox" value="Japan">Japan</label>
+        <label class="checkbox"><input type="checkbox" value="China">China</label>
+        <label class="checkbox"><input type="checkbox" value="Miami">Miami</label>
+        <label class="checkbox"><input type="checkbox" value="Emilia Romagna">Emilia Romagna</label>
+        <label class="checkbox"><input type="checkbox" value="Monaco">Monaco</label>
+        <label class="checkbox"><input type="checkbox" value="Canada">Canada</label>
+        <label class="checkbox"><input type="checkbox" value="Spain">Spain</label>
+        <label class="checkbox"><input type="checkbox" value="Austria">Austria</label>
+        <label class="checkbox"><input type="checkbox" value="Great Britain">Great Britain</label>
+        <label class="checkbox"><input type="checkbox" value="Hungary">Hungary</label>
+        <label class="checkbox"><input type="checkbox" value="Belgium">Belgium</label>
+        <label class="checkbox"><input type="checkbox" value="Netherlands">Netherlands</label>
+        <label class="checkbox"><input type="checkbox" value="Italy">Italy</label>
+        <label class="checkbox"><input type="checkbox" value="Azerbaijan">Azerbaijan</label>
+        <label class="checkbox"><input type="checkbox" value="Singapore">Singapore</label>
+        <label class="checkbox"><input type="checkbox" value="United States">United States</label>
+        <label class="checkbox"><input type="checkbox" value="Mexico">Mexico</label>
+        <label class="checkbox"><input type="checkbox" value="Brazil">Brazil</label>
+        <label class="checkbox"><input type="checkbox" value="Las Vegas">Las Vegas</label>
+        <label class="checkbox"><input type="checkbox" value="Qatar">Qatar</label>
+        <label class="checkbox"><input type="checkbox" value="Abu Dhabi">Abu Dhabi</label>
+      </fieldset>
+      <fieldset class="radio" >
+        <legend>Have you watched drive to survive?</legend>
+        <label for="yes"><input value="yes" id="yes" name="radio" type="radio" class="inline" checked>Yes</label>
+        <label for="no"><input value="no" id="no" name="radio" type="radio" class="inline">No</label>
+        
+      </fieldset>
+      <fieldset>
+        <label for="dropdown" name="dropdown">What is your favorite team?
+          <select id="dropdown" name="dropdown">
+            <option>Alpha Tauri</option>
+            <option>Alpine</option>
+            <option>Aston Martin</option>
+            <option>Ferrari</option>
+            <option>Hass</option>
+            <option>Mclaren</option>
+            <option>Mercedes</option>
+            <option>Red Bull</option>
+            <option>Sauber</option>
+            <option>Williams</option>
+          </select>
+        </label>
+        <label>Do you have any suggestion for the upcoming seasons?<textarea placeholder="Please submit your suggestions."></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="submit" />
+      </form>
+      </main>
+    
+    </body>
+  </html>  
