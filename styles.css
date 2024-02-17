@@ -22,12 +22,12 @@ header{
                 color: transparent;
 
  }
- 
-main{
+ main{
    background-color:lightgrey;
    width: 50%;
    margin:3rem auto 15;
  }
+ 
  
 header > p, h1 {
 margin: 0 0 0 0;
@@ -41,7 +41,7 @@ input, textarea, select {
 
 .track {
   display:grid;
-  grid-template-columns:1fr 1fr  ;
+  grid-template-columns:1fr 1fr;
   
   
 }
@@ -69,3 +69,4 @@ legend{
 textarea{
 height:100px;
 }
+
